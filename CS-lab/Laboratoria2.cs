@@ -10,7 +10,7 @@ public class Laboratoria2 {
         return 0;
     }
 
-    public bool IsGreaterThanZero() {
+    public bool IsGreaterThanZero(int value) {
         return false;
     }
 
