@@ -33,5 +33,20 @@ namespace Tests {
             Assert.AreEqual(true, lab2.AreEqual(5, 5), "5==5");
             Assert.AreEqual(false, lab2.AreEqual(10, 7), "10!=7");
         }
+
+        [Test]
+        public void Zad5_IsEven() {
+            Assert.AreEqual(true, lab2.IsEven(2), "2 jest parzyste");
+            Assert.AreEqual(true, lab2.IsEven(6), "6 jest parzyste");
+            Assert.AreEqual(false, lab2.IsEven(3), "3 nie jest parzyste");
+            Assert.AreEqual(false, lab2.IsEven(7), "7 nie jest parzyste");
+        }
+
+        [Test]
+        public void Zad6_SumAllNumbersInSequence() {
+            Assert.AreEqual(3, lab2.SumAllNumbersInSequence(1, 2), "1+2=3");
+            Assert.AreEqual(3, lab2.SumAllNumbersInSequence(4, 7), "4+5+6+7=22");
+            Assert.AreEqual(3, lab2.SumAllNumbersInSequence(2, 8), "2+3+4+5+6+7+8=35");
+        }
     }
 }
