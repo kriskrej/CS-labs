@@ -45,8 +45,8 @@ namespace Tests {
         [Test]
         public void Zad6_SumAllNumbersInSequence() {
             Assert.AreEqual(3, lab2.SumAllNumbersInSequence(1, 2), "1+2=3");
-            Assert.AreEqual(3, lab2.SumAllNumbersInSequence(4, 7), "4+5+6+7=22");
-            Assert.AreEqual(3, lab2.SumAllNumbersInSequence(2, 8), "2+3+4+5+6+7+8=35");
+            Assert.AreEqual(22, lab2.SumAllNumbersInSequence(4, 7), "4+5+6+7=22");
+            Assert.AreEqual(35, lab2.SumAllNumbersInSequence(2, 8), "2+3+4+5+6+7+8=35");
         }
     }
 }
