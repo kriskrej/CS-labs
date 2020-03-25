@@ -48,21 +48,37 @@ public class Laboratoria2 {
     }
 
 
-    /*   X
+    /*   Praca domowa: proszę zorobić funkcję, która narysuje taki trójkąt
+     *   o zadanym rozmiarze:
+     * 
+     *   X
      *   XX
      *   XXX
+     *   
+     *   *(przykład dla rozmiaru =3)
+     *   
+     *   pracę przoszę przesłać jako "C#-lab2" do Pani Basi:
+     *   https://krej-net.atlassian.net/wiki/spaces/LAB/pages/1067548675/Jak+odda+prac+domow
      */
-    public string ShowAsciiArtTriangle(int lines) {
-        return "";
+    public void ShowAsciiArtTriangle(int size) {
+
     }
 
-    /*     X
+
+    /*   Praca domowa dla ambitnych: proszę zorobić funkcję, która narysuje
+     *   taki trójkąt o zadanym rozmiarze:
+     *    
+     *     X
      *    XXX
      *   XXXXX
+     *   
+     *   *(przykład dla rozmiaru =3)
+     *   
+     *   chętnych pracę przoszę przesłać jako "C#-lab2-extra" do Pani Basi:
+     *   https://krej-net.atlassian.net/wiki/spaces/LAB/pages/1067548675/Jak+odda+prac+domow
      */
-    public string ShowAsciiArtTriangleWithLeadingSpaces(int lines) {
-        return "";
-    }
+    public void ShowAsciiArtTriangleWithLeadingSpaces(int lines) {
 
+    }
 
 }
