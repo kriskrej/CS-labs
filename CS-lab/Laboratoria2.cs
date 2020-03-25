@@ -30,8 +30,8 @@ public class Laboratoria2 {
         return 0;
     }
 
-    public string CreateCommaSeparatedSequence(int from, int to) {
-        return "";
+    public void ShowCommaSeparatedSequence(int from, int to) {
+        
     }
 
     public string ListAllEvenNumbersFrom100To0() {
@@ -43,8 +43,8 @@ public class Laboratoria2 {
      *   XXX
      *   XXX
      */
-    public string ShowAsciiArtSquare(int lines) {
-        return "";
+    public void ShowAsciiArtSquare(int size) {
+        
     }
 
 
