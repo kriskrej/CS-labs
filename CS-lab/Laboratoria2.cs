@@ -1,7 +1,7 @@
 ﻿using System;
 
 public class Laboratoria2 {
-    public Laboratoria2() {
+    public void ShowIntroduction() {
         Console.WriteLine("=== Laboratoria nr 2 ===");
         Console.WriteLine("Na tych zajęciach poznamy:\n * funkcje,\n * instrukcję if,\n * pętlę for,\n * oraz typy bool i string.\n");
     }
