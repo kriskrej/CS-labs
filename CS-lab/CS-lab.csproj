@@ -6,4 +6,13 @@
     <RootNamespace>CS_lab</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Update="data\slowa.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="data\wulgaryzmy.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
